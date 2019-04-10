@@ -8,6 +8,10 @@
   pointer-events: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,6 +23,14 @@
   color: white;
 }
 
+.btn {
+  margin: 5px;
+}
+
+input {
+  margin: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -27,20 +39,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 img {
   width: 20%;
   height: 20%;
 }
+
 .book-container {
   display: flex;
 }
+
+h1 {
+  font-size: 50px;
+}
+
 .book-list {
   width: 50%;
 }
+
 .bookshelf {
   width: 50%;
 }
