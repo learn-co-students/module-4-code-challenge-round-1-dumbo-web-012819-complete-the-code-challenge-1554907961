@@ -11,9 +11,9 @@ class Form extends React.Component {
   handleChange = (e) => {
     this.setState({
       [e.target.name]: e.target.value
-    }, () => console.log(this.state))
+    })
   }
-  
+
   render() {
     return (
       <form onSubmit={(e) => this.props.handleSub(e, this.state)}>
