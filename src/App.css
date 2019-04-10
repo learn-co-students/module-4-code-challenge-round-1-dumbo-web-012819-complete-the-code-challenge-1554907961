@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +38,9 @@
   }
 }
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 20%;
   height: 20%;
 }
@@ -39,8 +48,24 @@ img {
   display: flex;
 }
 .book-list {
+  text-align: center;
   width: 50%;
 }
 .bookshelf {
   width: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.book {
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/table-made-with-planks_1253-2.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+form {
+  margin-left: 1vw;
 }
