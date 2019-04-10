@@ -1,11 +1,11 @@
 import React from "react";
-import Book from "../components/Book";
+import AddedBook from "../components/AddedBook";
 
 const Bookshelf = props => {
   return (
     <div>
       <h1>Book Shelf</h1>
-      <ul>{/*render list of books here*/}</ul>
+      <ul>{props.addedBooks.map(book => <AddedBook removeFromShelfClick={props.removeFromShelfClick} key={book.id} book={book}/>)}</ul>
     </div>
   );
 };
