@@ -2,51 +2,57 @@
   "books": [
     {
       "id": 1,
-      "title": "The Great Gatsby",
+      "title": "Ball? Ball?! Ball! Ball! BALL!",
       "author": "F. Scott Fitzgerald",
-      "img": "https://mppl.org/wp-content/uploads/0-214x300.jpg"
+      "img": "https://media2.giphy.com/media/KLbq09EoE1uDu/giphy.gif"
     },
     {
       "id": 2,
-      "title": "1984",
+      "title": "Shaq Caq",
       "author": "George Orwell",
-      "img": "https://i0.wp.com/www.casualoptimist.com/wp-content/uploads/2017/01/1984-design-Shepard-Fairey.jpg"
+      "img": "https://media0.giphy.com/media/nNxT5qXR02FOM/giphy.gif"
     },
     {
       "id": 3,
-      "title": "To Kill A Mockingbird",
+      "title": "I Can Has Cheezburger?",
       "author": "Harper Lee",
-      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/To_Kill_a_Mockingbird.JPG/220px-To_Kill_a_Mockingbird.JPG"
+      "img": "https://media0.giphy.com/media/ybEXZcycd789q/giphy.gif"
     },
     {
       "id": 4,
-      "title": "Long Walk to Freedom",
+      "title": "That was legen...(wait for it)",
       "author": "Nelson Mandela",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/51DVbVOCedL._SX318_BO1,204,203,200_.jpg"
+      "img": "https://media.giphy.com/media/5gXYzsVBmjIsw/giphy.gif"
     },
     {
       "id": 5,
-      "title": "48 Laws of Power",
+      "title": "Plz Sir May I Haz Sum Moar?",
       "author": "Robert Green",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/71aG%2BxDKSYL.jpg"
+      "img": "https://media.giphy.com/media/9uwnYUDw342pq/giphy.gif"
     },
     {
       "id": 6,
-      "title": "Homegoing",
+      "title": "DJ Dachshund",
       "author": "Yaa Gyasi",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/41UY3xTBq3L._SX322_BO1,204,203,200_.jpg"
+      "img": "https://media0.giphy.com/media/10UyCGpt1BSvu0/giphy.gif"
     },
     {
       "id": 7,
-      "title": "The Jungle",
+      "title": "Around and around and around and around...",
       "author": "Upton Sinclair",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/51i13OyQ1EL._SX346_BO1,204,203,200_.jpg"
+      "img": "https://media0.giphy.com/media/c5RzZOHPgry80/giphy.gif"
     },
     {
       "id": 8,
-      "title": "We Should All Be Feminists",
+      "title": "I'm Ready For My Closeup",
       "author": "Chimamanda Ngozi Adichie",
-      "img": "https://images-na.ssl-images-amazon.com/images/I/51L9u20bC7L._SX348_BO1,204,203,200_.jpg"
+      "img": "https://i.gifer.com/9BWl.gif"
+    },
+    {
+      "id": 9,
+      "title": "Dary",
+      "author": "Nelson Mandela",
+      "img": "https://media.giphy.com/media/5gXYzsVBmjIsw/giphy.gif"
     }
   ]
 }

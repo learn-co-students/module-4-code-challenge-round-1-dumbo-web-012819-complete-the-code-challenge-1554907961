@@ -6,7 +6,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #002233;
+  color: #bbb;
 }
+
+div {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.book-container:last-child {
+  /* background: #000; */
+  /* background */
+}
+
+.book-shelf {
+  /* background: #000; */
+  width: 50%;
+
+}
+
+/* .book-shelf {
+  background: #000;
+  padding: 30px;
+  text-align: center;
+} */
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

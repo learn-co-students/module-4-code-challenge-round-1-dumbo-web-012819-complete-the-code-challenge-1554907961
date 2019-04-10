@@ -37,10 +37,21 @@ img {
 }
 .book-container {
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 .book-list {
   width: 50%;
 }
 .bookshelf {
   width: 50%;
+}
+
+#root {
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }

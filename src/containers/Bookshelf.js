@@ -2,10 +2,14 @@ import React from "react";
 import Book from "../components/Book";
 
 const Bookshelf = props => {
+  const addedBooks = props.bookshelf.map(bookshelf => {
+    // console.log(bookshelf.id)
+    return <Book {...bookshelf} handleClick={props.handleRemoveClick} key={bookshelf.id}/>
+  })
   return (
-    <div>
+    <div className="book-shelf">
       <h1>Book Shelf</h1>
-      <ul>{/*render list of books here*/}</ul>
+      <ul>{ addedBooks }</ul>
     </div>
   );
 };
