@@ -22,7 +22,7 @@ Then start the json-server:
 <!-- 3. Clicking on a book in the Book List should add it to the Book Shelf -->
 <!-- 4. Clicking on a book in the Book Shelf should remove it from the Book Shelf -->
 <!-- 5. Add a controlled form that allows the user to add a book to the Book List (this should _NOT_ persist) -->
-6. BONUS: Each book can only be added to Book Shelf one time (Book Shelf should not have duplicate books)
+<!-- 6. BONUS: Each book can only be added to Book Shelf one time (Book Shelf should not have duplicate books) -->
 
 ## Sample New Book Info
 Here is some convenient sample info for you to use to add new books to the

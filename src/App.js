@@ -13,10 +13,25 @@ class App extends Component {
   }
 
   addToBookshelf = (bookObj) => {
-    const newShelfBooks = [...this.state.shelfBooks, bookObj]
+    if (this.isAlreadyExist(bookObj)){
+      alert('Already have that one! Sorry!')
+    } else {
+      const newShelfBooks = [...this.state.shelfBooks, bookObj]
+      // console.log(this.state.shelfBooks === newShelfBooks) => false
 
-    this.setState({
-      shelfBooks: newShelfBooks
+      this.setState({
+        shelfBooks: newShelfBooks
+      })
+    }
+  }
+
+  isAlreadyExist = (bookObj) => {
+
+    return this.state.shelfBooks.some((book) => {
+      // This is really concerning why this evaluates to true without comparing id values.
+      // Should both of these reference the same object in memory?
+      // That is a book from 'shelfBooks' compared to a book from 'books'?
+      return book === bookObj
     })
   }
 
